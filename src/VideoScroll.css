@@ -1,0 +1,32 @@
+
+.videoscroll{
+height: 100vh;
+}
+
+.videoscroll video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.videoscroll h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+
+.videoscroll__bottom{
+    height: 100vh;
+    background-color: white;
+}
+
+.videoscroll__bottom h1{
+ padding-top: 20px;
+ text-align: center;
+ font-size: 50px;
+ color: black;
+}
+

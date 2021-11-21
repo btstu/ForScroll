@@ -1,0 +1,13 @@
+
+
+.scrollVid {
+    height: 100vh;
+    border: 10px red solid;
+}
+
+
+.scrollVid video{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
